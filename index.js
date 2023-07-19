@@ -39,16 +39,19 @@ else{
     
     var b=document.getElementById('car');
      var c=document.getElementById('car1');
+     var d=document.getElementById('sign');
      var i;
      if (z.matches) { // If media query matches
      b.style.font=16;
      b.style.display="block";
      c.style.display="block";
+     d.style.width="18rem";
      console.log(c);
       }
      else{
      b.style.display="flex";
       c.style.display="flex";
+      d.style.width="30rem";
        }
   }
 
